@@ -2,6 +2,7 @@ package com.homenet.algorithms;
 
 import com.homenet.algorithms.sorting.sorting.BubbleSorting;
 import com.homenet.algorithms.sorting.sorting.InsertionSorting;
+import com.homenet.algorithms.sorting.sorting.MergeSorting;
 import com.homenet.algorithms.sorting.sorting.SelectionSorting;
 
 /**
@@ -25,6 +26,13 @@ public class Tester {
         insertionSorting.fillWith(10);
         insertionSorting.sort();
         insertionSorting.print();
+
+
+        MergeSorting mergeSorting = new MergeSorting(120);
+        mergeSorting.fillWith(120);
+        mergeSorting.sort();
+        mergeSorting.print();
+
     }
 
 
