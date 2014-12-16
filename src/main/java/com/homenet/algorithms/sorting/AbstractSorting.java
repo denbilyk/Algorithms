@@ -8,8 +8,10 @@ import java.util.Random;
  */
 public abstract class AbstractSorting {
     long a[];
+    private int size;
 
     public AbstractSorting(int size) {
+        this.size = size;
         this.a = new long[size];
     }
 
@@ -19,13 +21,13 @@ public abstract class AbstractSorting {
         a[i] = tmp;
     }
 
-    public void fillWith(int amount) {
-        if (amount > a.length) {
+    public void fill() {
+        if (size > a.length) {
             System.out.println("Opps. Size is not compatible");
         }
 
         Random rnd = new Random();
-        for (int i = 0; i < amount; i++) {
+        for (int i = 0; i < size; i++) {
             int val = Math.abs((int) Math.ceil(Math.random()) * rnd.nextInt(99));
             a[i] = val;
         }
@@ -36,4 +38,8 @@ public abstract class AbstractSorting {
     }
 
     public abstract void sort();
+
+    long[] getArray() {
+        return a;
+    }
 }
