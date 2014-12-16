@@ -1,4 +1,4 @@
-package com.homenet.algorithms.sorting.sorting;
+package com.homenet.algorithms.sorting;
 
 /**
  * @author denis.bilyk

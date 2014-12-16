@@ -1,9 +1,9 @@
 package com.homenet.algorithms;
 
-import com.homenet.algorithms.sorting.sorting.BubbleSorting;
-import com.homenet.algorithms.sorting.sorting.InsertionSorting;
-import com.homenet.algorithms.sorting.sorting.MergeSorting;
-import com.homenet.algorithms.sorting.sorting.SelectionSorting;
+import com.homenet.algorithms.sorting.BubbleSorting;
+import com.homenet.algorithms.sorting.InsertionSorting;
+import com.homenet.algorithms.sorting.MergeSorting;
+import com.homenet.algorithms.sorting.SelectionSorting;
 
 /**
  * @author denis.bilyk
