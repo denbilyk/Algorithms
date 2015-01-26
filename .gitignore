@@ -9,5 +9,5 @@
 *.ipr
 *.iws
 *.iml
-
+target
 */target/*
